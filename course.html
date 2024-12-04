@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课程页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .image-row img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>课程页面</h1>
+
+    <!-- 图片行 -->
+    <div class="image-row">
+        <img src="a.png" >
+        <img src="b.png" >
+        <img src="c.png" >
+    </div>
+    
+    <div class="image-row">
+        <img src="d.png" >
+        <img src="f.png" >
+        <img src="g.png" >
+    </div>
+
+    <!-- 跳转按钮 -->
+    <a href="index.html" class="button">返回主页</a>
+</div>
+
+</body>
+</html>
